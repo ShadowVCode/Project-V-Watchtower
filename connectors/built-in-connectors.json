@@ -1,0 +1,81 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "nasa-firms",
+    "name": "NASA FIRMS Fire Detection",
+    "category": "fire",
+    "routing": "direct-provider",
+    "credentialKeys": ["NASA_FIRMS_API_KEY"],
+    "refreshSeconds": 600,
+    "cacheSeconds": 600,
+    "output": "project-v-event-v1",
+    "notes": "Thermal anomalies normalized into geolocated Watchtower events."
+  },
+  {
+    "schemaVersion": 1,
+    "id": "fred-economics",
+    "name": "FRED Economic Indicators",
+    "category": "economics",
+    "routing": "direct-provider",
+    "credentialKeys": ["FRED_API_KEY"],
+    "refreshSeconds": 3600,
+    "cacheSeconds": 3600,
+    "output": "project-v-metric-v1"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "finnhub-markets",
+    "name": "Finnhub Market Data",
+    "category": "markets",
+    "routing": "direct-provider",
+    "credentialKeys": ["FINNHUB_API_KEY"],
+    "refreshSeconds": 60,
+    "cacheSeconds": 60,
+    "output": "project-v-metric-v1"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "acled-conflicts",
+    "name": "ACLED Conflict Events",
+    "category": "conflict",
+    "routing": "direct-provider",
+    "credentialKeys": ["ACLED_ACCESS_TOKEN"],
+    "refreshSeconds": 1800,
+    "cacheSeconds": 1800,
+    "output": "project-v-event-v1"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "opensky-aircraft",
+    "name": "OpenSky Aircraft Tracking",
+    "category": "aviation",
+    "routing": "local-sidecar",
+    "credentialKeys": ["OPENSKY_CLIENT_ID", "OPENSKY_CLIENT_SECRET"],
+    "refreshSeconds": 30,
+    "cacheSeconds": 30,
+    "output": "project-v-asset-v1"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "aisstream-vessels",
+    "name": "AISStream Vessel Tracking",
+    "category": "maritime",
+    "routing": "local-sidecar",
+    "credentialKeys": ["AISSTREAM_API_KEY"],
+    "refreshSeconds": 30,
+    "cacheSeconds": 30,
+    "output": "project-v-asset-v1"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "worldmonitor-upstream",
+    "name": "World Monitor Compatibility Fallback",
+    "category": "compatibility",
+    "routing": "optional-upstream",
+    "credentialKeys": ["WORLDMONITOR_API_KEY"],
+    "refreshSeconds": 300,
+    "cacheSeconds": 300,
+    "output": "project-v-event-v1",
+    "notes": "Optional inherited cloud fallback. Not required for Project V local features."
+  }
+]
