@@ -6,6 +6,14 @@ Project V Watchtower is a Windows desktop situational-awareness and research com
 
 It combines live information panels, operational maps, local research tools, case management, configurable workspaces, restricted web handoffs, alerting, and source-aware AI analysis in one desktop interface.
 
+## Upstream foundation
+
+Project V Watchtower is an independently maintained and substantially modified
+downstream project based on World Monitor.
+
+Project V Watchtower is not an official World Monitor release and is not
+endorsed or maintained by the upstream World Monitor developers.
+
 ## Download
 
 Use the **Releases** page rather than downloading binaries from the repository itself.
