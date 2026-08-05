@@ -1,3 +1,90 @@
+<div align="center">
+
+<h1>Project V Watchtower</h1>
+
+<p>
+  <strong>
+    A local-first Windows situational-awareness, research, mapping,
+    and optional local-AI command center.
+  </strong>
+</p>
+
+<p>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/stargazers">
+    <img src="https://img.shields.io/github/stars/ThePeopleRecords/Project-V-Watchtower?style=flat-square&logo=github&label=Stars" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/forks">
+    <img src="https://img.shields.io/github/forks/ThePeopleRecords/Project-V-Watchtower?style=flat-square&logo=github&label=Forks" alt="GitHub Forks">
+  </a>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/issues">
+    <img src="https://img.shields.io/github/issues/ThePeopleRecords/Project-V-Watchtower?style=flat-square&logo=github&label=Issues" alt="GitHub Issues">
+  </a>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/ThePeopleRecords/Project-V-Watchtower?style=flat-square&label=License" alt="License">
+  </a>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/github/v/release/ThePeopleRecords/Project-V-Watchtower?include_prereleases&sort=semver&style=flat-square&label=Release" alt="Release">
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/github/downloads/ThePeopleRecords/Project-V-Watchtower/total?style=flat-square&label=Downloads" alt="Downloads">
+  <img src="https://img.shields.io/github/last-commit/ThePeopleRecords/Project-V-Watchtower?style=flat-square&label=Last%20Commit" alt="Last Commit">
+  <img src="https://img.shields.io/badge/platform-Windows%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows x64">
+  <img src="https://img.shields.io/badge/runtime-Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt="Tauri">
+  <img src="https://img.shields.io/badge/language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/local%20AI-Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+  <img src="https://img.shields.io/badge/status-experimental%20pre--alpha-FF6B00?style=flat-square" alt="Experimental Pre-Alpha">
+</p>
+
+<br>
+
+<p>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/VIEW-RELEASE%20v1.0.0-6F42C1?style=for-the-badge&logo=github&logoColor=white" alt="View Release">
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/releases/download/v1.0.0/Project-V-Watchtower-1.0.0-Windows-x64-Setup.exe">
+    <img src="https://img.shields.io/badge/DOWNLOAD-WINDOWS%20SETUP-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Download Windows Setup">
+  </a>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/releases/download/v1.0.0/Project-V-Watchtower-1.0.0-Windows-x64.msi">
+    <img src="https://img.shields.io/badge/DOWNLOAD-WINDOWS%20MSI-005A9C?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows MSI">
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/blob/main/WHITEPAPER.md">
+    <img src="https://img.shields.io/badge/READ-WHITE%20PAPER-7C3AED?style=for-the-badge&logo=readme&logoColor=white" alt="Read White Paper">
+  </a>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/blob/main/INSTALLATION.md">
+    <img src="https://img.shields.io/badge/VIEW-INSTALLATION%20GUIDE-16A34A?style=for-the-badge&logo=bookstack&logoColor=white" alt="Installation Guide">
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/blob/main/SECURITY.md">
+    <img src="https://img.shields.io/badge/READ-SECURITY%20POLICY-B91C1C?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Security Policy">
+  </a>
+  <a href="https://github.com/ThePeopleRecords/Project-V-Watchtower/releases/download/v1.0.0/Project-V-Watchtower-1.0.0-Source.zip">
+    <img src="https://img.shields.io/badge/DOWNLOAD-SOURCE%20CODE-374151?style=for-the-badge&logo=github&logoColor=white" alt="Download Source">
+  </a>
+</p>
+
+</div>
+<img width="1898" height="1023" alt="Screenshot 2026-08-04 222715" src="https://github.com/user-attachments/assets/89128f9d-d127-4f75-82ca-e9d07256059e" />
+
+> [!NOTE]
+> **Upstream foundation:** Project V Watchtower is a substantially modified
+> downstream project based on World Monitor. It is not an official World Monitor
+> release and is not maintained or endorsed by the upstream developers.
+
+> [!WARNING]
+> **Experimental pre-alpha software.** Project V Watchtower has not undergone
+> an independent security audit. The Windows installers are currently unsigned
+> and may appear as an unknown publisher.
+> 
 # Project V Watchtower
 
 > **Experimental pre-alpha software.** Project V Watchtower has not undergone an independent security audit. It does not guarantee anonymity, immunity from malware, protection from a compromised operating system, or accuracy of external data or AI-generated analysis. The current Windows installers are not Authenticode-signed and may appear as an unknown publisher.
